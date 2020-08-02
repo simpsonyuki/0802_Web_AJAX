@@ -9,3 +9,4 @@ xhr.send();                       //傳送
 xhr.onload = () => {
     content.innerText = xhr.responseText;
 }
+// AJAX 技術為: 後台資料儲存前台資料會自動更新, 且網頁不需要重新整理
